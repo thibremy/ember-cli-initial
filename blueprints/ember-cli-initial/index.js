@@ -1,5 +1,5 @@
 module.exports = {
-  description: ''
+  description: 'Ember addon, wrap initial.js',
 
   // locals: function(options) {
   //   // Return custom template variables here.
@@ -8,7 +8,7 @@ module.exports = {
   //   };
   // }
 
-  afterInstall() {
+  afterInstall: function() {
     return this.addBowerPackageToProject('judesfernando/initial.js'); // is a promise
   }
 };
