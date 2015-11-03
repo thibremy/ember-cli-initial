@@ -1,0 +1,1 @@
+export { default } from 'ember-cli-initial/components/img-initial';
